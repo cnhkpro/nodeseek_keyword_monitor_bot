@@ -19,7 +19,8 @@
 
 1. **克隆仓库**
    ```bash
-   git clone [https://github.com/cnhkpro/nodeseek_keyword_monitor_bot.git](https://github.com/cnhkpro/nodeseek_keyword_monitor_bot.git)
+   git clone https://github.com/cnhkpro/nodeseek_keyword_monitor_bot.git
+   
    cd nodeseek_keyword_monitor_bot
    ```
 

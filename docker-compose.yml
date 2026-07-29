@@ -5,6 +5,8 @@ services:
     build: .
     container_name: nodeseek_telegram_bot
     restart: always
+    environment:
+      - PYTHONUNBUFFERED=1  # 强制 Python 实时刷新 stdout
     volumes:
       - ./data:/app/data
       - ./.env:/app/.env  # 👈 直接把宿主机的 .env 映射到容器内

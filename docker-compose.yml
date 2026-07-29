@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  nodeseek-bot:
+    build: .
+    container_name: nodeseek_telegram_bot
+    restart: always
+    volumes:
+      - ./data:/app/data
+      - ./.env:/app/.env  # 👈 直接把宿主机的 .env 映射到容器内
